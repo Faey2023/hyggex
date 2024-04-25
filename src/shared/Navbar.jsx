@@ -7,7 +7,9 @@ const Navbar = () => {
         {/* logo div */}
         <div className="flex gap-2 text-center items-center">
           <img src={logo} alt="logo for hyggex" className=" w-20 h-20" />
-          <h3 className=" text-[#06286E] text-xl font-medium -mt-2">Hyggex</h3>
+          <h3 className=" text-[#06286E] text-xl font-medium -mt-2">
+            Hygge<span className=" font-bold">X</span>
+          </h3>
         </div>
         <div className="flex text-center">
           <ul className="flex gap-10 text-center items-center">
