@@ -60,7 +60,7 @@ const Function = () => {
       <div className="flex justify-between">
         <div className="flex gap-5">
           <div className="rounded-full h-10 w-10 bg-white shadow-2xl">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className="w-20" />
           </div>
           <div className="flex flex-col">
             <p className="text-xs">Published By</p>
