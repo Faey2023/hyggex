@@ -1,4 +1,5 @@
 import logo from "../../assets/logo.png";
+import "../../shared/text.css";
 import { GoHome } from "react-icons/go";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
 import {
@@ -20,11 +21,11 @@ const Function = () => {
         <FaChevronRight className="text-[#06286E]" />
         <p className="text-[#06286E] font-semibold">Relations and Functions</p>
       </div>
-      <h1 className="text-[#06286E] font-bold text-3xl">
+      <h1 className="text font-bold text-3xl">
         Relations and Functions ( Mathematics )
       </h1>
       <div className="flex justify-center items-center">
-        <ul className="flex gap-10 text-[#696671]">
+        <ul className="flex gap-10 text-[#696671] font-medium">
           <li className="text-[#06286E] font-bold">Study</li>
           <li>Quiz</li>
           <li>Test</li>
@@ -39,7 +40,7 @@ const Function = () => {
             <MdOutlineVolumeUp />
           </div>
           <div className="w-full flex justify-center items-center font-bold text-4xl">
-            <p className="mt-20">9 + 6 + 7x - 2x - 3</p>
+            <p className="mt-32">9 + 6 + 7x - 2x - 3</p>
           </div>
         </div>
       </div>
@@ -63,7 +64,7 @@ const Function = () => {
           </div>
           <div className="flex flex-col">
             <p className="text-xs">Published By</p>
-            <h3 className=" text-[#06286E] text-xl">
+            <h3 className=" text-[#06286E] text-xl font-medium">
               Hygge<span className=" font-bold">X</span>
             </h3>
           </div>
