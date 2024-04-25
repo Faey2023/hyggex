@@ -1,7 +1,9 @@
+import Navbar from "../shared/Navbar";
+
 const MainPage = () => {
   return (
     <div>
-      <h1>ok</h1>
+      <Navbar />
     </div>
   );
 };
